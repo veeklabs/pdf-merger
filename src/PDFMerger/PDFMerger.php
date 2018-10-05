@@ -24,8 +24,8 @@
 namespace Clegginabox\PDFMerger;
 
 use Exception;
-use setasign\Fpdi\Fpdi;
-
+use fpdi\FPDI;
+use fpdf\FPDF;
 
 class PDFMerger
 {
