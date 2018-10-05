@@ -26,6 +26,7 @@ namespace Clegginabox\PDFMerger;
 use Exception;
 use setasign\Fpdi\Fpdi;
 
+
 class PDFMerger
 {
     private $_files;    //['form.pdf']  ["1,2,4, 5-19"]
