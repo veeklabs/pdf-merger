@@ -2,9 +2,14 @@
     "name": "clegginabox/pdf-merger",
     "description": "PDF File Merger for PHP5",
     "require": {
-    	"setasign/fpdi": "^2.0",
-	"setasign/fpdf": "^1.8"
+            "itbz/fpdi": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/veeklabs/fpdi"
+        }
+    ],
     "authors": [
         {
             "name": "Paul Clegg",
